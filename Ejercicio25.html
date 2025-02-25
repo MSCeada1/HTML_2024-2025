@@ -1,0 +1,31 @@
+<!--25.-Crea una página que tenga una tabla formada por 7 Celdas. Combina las celdas 1y 2
+correspondientes a las dos primeras columnas, en una sóla.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con celdas combinadas</title>
+</head>
+<body style="background-color: lightgray; text-align: center;">
+
+    <h1>Tabla con 7 Celdas y Combinación</h1>
+
+    <table border="2" style="width: 50%; margin: auto; border-collapse: collapse;">
+        <tr>
+            <!-- Celda 1 y 2 combinadas -->
+            <td colspan="2" style="background-color: lightblue; text-align: center; font-weight: bold;">Celda 1 y 2 (Combinadas)</td>
+            <td style="background-color: lightcoral; text-align: center; font-weight: bold;">Celda 3</td>
+        </tr>
+        <tr>
+            <td style="background-color: lightgreen; text-align: center; font-weight: bold;">Celda 4</td>
+            <td style="background-color: lightyellow; text-align: center; font-weight: bold;">Celda 5</td>
+            <td style="background-color: lightpink; text-align: center; font-weight: bold;">Celda 6</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: lightskyblue; text-align: center; font-weight: bold;">Celda 7 (Ocupando toda la fila)</td>
+        </tr>
+    </table>
+
+</body>
+</html>

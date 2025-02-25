@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta sobre satisfacción</title>
+</head>
+<body>
+
+    <h1>Consulta sobre satisfacción</h1>
+    <h2>Autobuses "El viaje más largo"</h2>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"> @ <br><br>
+
+        <label for="poblacion">Población</label>
+        <input type="text" id="poblacion" name="poblacion"><br><br>
+
+        <label>Sexo</label><br>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+
+        <label for="frecuencia">Frecuencia de los viajes</label>
+        <select id="frecuencia" name="frecuencia">
+            <option value="varias_dia">Varias veces al día</option>
+            <option value="una_dia">Una vez al día</option>
+            <option value="varias_semana">Varias veces a la semana</option>
+            <option value="varias_mes">Varias veces al mes</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentarios sobre su satisfacción personal</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+        <input type="checkbox" id="notificaciones" name="notificaciones">
+        <label for="notificaciones">Deseo recibir notificación de las novedades en las líneas de autobuses.</label><br><br>
+
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Borrar todo">
+    </form>
+
+    <h3>En donde:</h3>
+    <label for="frecuencia">Frecuencia de los viajes</label>
+    <select id="frecuencia" name="frecuencia">
+        <option value="varias_dia">Varias veces al día</option>
+        <option value="una_dia">Una vez al día</option>
+        <option value="varias_semana">Varias veces a la semana</option>
+        <option value="varias_mes">Varias veces al mes</option>
+    </select>
+
+</body>
+</html>

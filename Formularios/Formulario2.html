@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con carga de foto</title>
+</head>
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <!-- Campo de nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <!-- Campo para seleccionar foto -->
+        <label for="foto">Seleccione la foto:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <!-- Botones de enviar y borrar -->
+        <button type="submit">
+            <img src="icono-enviar.png" alt="Enviar" width="16" height="16">
+            Enviar
+        </button>
+        <button type="reset">
+            <img src="icono-borrar.png" alt="Borrar" width="16" height="16">
+            Borrar
+        </button>
+    </form>
+
+</body>
+</html>
